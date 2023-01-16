@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: calc(66px * 6);
+    height: calc(66px * 6);
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid saddlebrown;
+    background-color: burlywood;
+}
+.cell {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell img {
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.black {
+    background-color: sienna;
+}
+.white {
+    background-color: burlywood;
+}
+
+.selected {
+    background-color: brown;
+}
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #22c022;
+}
+
+.lost {
+    width: 100px;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 10px 20px 350px 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 70px;
+    margin-left: 20px;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Avenir Next", monospace;
+}
+
+.restartButton {
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Avenir Next", monospace;
+}
+
+.heading {
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Avenir Next", monospace;
+}
+
+.system {
+    height: 100px;
+    width: 200px;
+}
+
+.languageButton {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Avenir Next", monospace;
+
+    margin-left: 20px;
+    padding: 5px;
+    background-color: darkorchid;
+    color: white;
+}
+
+.win {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Avenir Next", monospace;
+}
